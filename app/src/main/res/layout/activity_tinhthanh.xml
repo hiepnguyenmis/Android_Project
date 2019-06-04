@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tinhthanhActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TableRow android:layout_height="42dp"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+
+                android:layout_width="148dp"
+                android:layout_height="match_parent"
+                android:text="Tỉnh:"
+                android:textSize="25sp"
+                android:textColor="#000000"
+                />
+
+            <EditText
+                android:id="@+id/edtinh"
+                android:layout_width="259dp"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow android:layout_height="42dp"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Huyện"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/edtHuyen"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                />
+        </TableRow>
+        <TableRow android:layout_height="42dp"
+            android:layout_marginTop="10dp">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Phường Xã"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/edphuongxa"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                />
+        </TableRow>
+        <TableRow android:layout_height="42dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Loai DV"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <EditText
+                android:id="@+id/edploaidv"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                />
+
+
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:id="@+id/btnthemtinhthanh"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="180dp"
+        android:text="Thêm đơn vị"
+        android:textSize="23sp"/>
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>

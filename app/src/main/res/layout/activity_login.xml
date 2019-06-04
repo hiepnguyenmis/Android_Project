@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_layout"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        >
+        <TextView
+            android:layout_width="373dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:text="Đăng Nhập"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:textColor="#F1519C"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:id="@+id/txtUserName"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/txt_bg"
+            android:hint="Tên Đăng Nhập"
+            android:padding="10dp"
+            android:textColorHint="#F790BE"
+            android:textSize="25dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/txtPassWord"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/txt_bg"
+            android:hint="Mật Khẩu"
+            android:padding="10dp"
+            android:textColorHint="#F790BE"
+            android:textSize="25dp"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/lblForgot"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="Quên Mật Khẩu?"
+                android:textSize="23dp"
+                android:gravity="right"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="italic"
+                android:layout_gravity="right"/>
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="248dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Đăng Nhập"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:background="@drawable/btn_bg" />
+
+            <TextView
+                android:id="@+id/lblErr"
+                android:layout_marginTop="10dp"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:gravity="center"
+                android:text=""
+                android:textSize="23dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

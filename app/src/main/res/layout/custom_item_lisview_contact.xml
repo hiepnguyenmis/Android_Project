@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="121dp"
+            android:layout_height="135dp">
+
+            <ImageView
+                android:id="@+id/imgDonvi"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/policemanitem"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="46dp">
+
+                <TextView
+                    android:id="@+id/lblTenDonVi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorBlue"
+                    android:paddingLeft="10dp"
+                    android:text="Công An Phường 3,Quận Phú Nhuận"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </ScrollView>
+
+
+            <TextView
+                android:id="@+id/lblSodtDonVi"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="0123456789"
+                android:textColor="#FD0000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="83dp">
+
+                <TextView
+                    android:id="@+id/lblDiaChiDonVi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:text="33/5,Đường A,Phường3,Q.Phú Nhuận,HCM,"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnPhanHoi"
+                    android:layout_width="100dp"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/btn_bg"
+                    android:text="Phản Hồi"
+                    android:layout_marginLeft="4dp"/>
+
+                <Button
+                    android:id="@+id/btnsetKhanCap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/btn_bg"
+                    android:text="Cài làm khẩn cấp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

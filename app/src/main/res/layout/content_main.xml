@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btnANTT"
+                    android:layout_width="match_parent"
+                    android:layout_height="222dp"
+                    android:background="@drawable/antt"
+                    android:text="AN NINH - TRẬT TỰ"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#D81B60"
+                    android:paddingBottom="70dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btnTGCH"
+                    android:layout_width="match_parent"
+                    android:layout_height="222dp"
+                    android:background="@drawable/chtg"
+                    android:text="TRỢ GIÚP - CỨU HỘ"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#D81B60"
+                    android:paddingBottom="70dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btnCT"
+                    android:layout_width="match_parent"
+                    android:layout_height="222dp"
+                    android:background="@drawable/cc"
+                    android:text="CẤP CỨU"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="#D81B60"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
